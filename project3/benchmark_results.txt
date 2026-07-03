@@ -1,0 +1,18 @@
+Generating 5,000,000 random floats...
+Timing pure Python version (3 runs, best taken)...
+Timing C extension version (3 runs, best taken)...
+Correctness check passed: both versions agree.
+
+Metric                     Value
+count                  5,000,000
+mean                  499.928477
+variance            83332.450764
+std_dev               288.673606
+min                     0.000447
+max                   999.999711
+
+Version               Best time (s)
+Pure Python                  0.3507
+C extension                  0.0322
+
+Speedup: C extension is 10.9x faster.
